@@ -1,0 +1,206 @@
+/* universal css */
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.fn-500 {
+    font-weight: 500 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* universal css */
+
+/* navbar start */
+.navbar .brand-img {
+    height: 7vh;
+    margin-right: 1vh;
+}
+
+.navbar #navbarSupportedContentlast .current_page_item a {
+    color: #0d6efd !important;
+    border-bottom: 1px solid #0d6efd;
+    padding-bottom: 8px;
+}
+
+/* navbar end */
+
+/* main-content start */
+#main {
+    height: 100vh;
+    width: 100%;
+    padding-top: 15vh;
+}
+
+#main .is-layout-flex {
+    width: 100%;
+    display: flex !important;
+    margin-top: 3vh;
+}
+
+#main .is-layout-flow img {
+    width: 100%;
+}
+
+#main .wp-element-button {
+    padding: 10px 20px;
+    font-size: 2.5vh;
+    background-color: #111111;
+    color: #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* home css */
+#home-main {
+    height: 100vh;
+    width: 100%;
+}
+
+/* home css */
+
+/* pages start */
+#pages {
+    padding-top: 13vh;
+}
+
+#pages .card-img-top {
+    height: 35vh;
+    width: 100%;
+}
+
+#pages .card {
+    border-color: transparent;
+}
+
+#pages .card:hover {
+    border-color: #11111130;
+    transition: 0.5s ease-in-out;
+}
+
+#pages .card a {
+    background-color: #111;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-size: 2.5vh;
+}
+
+#pages .card a:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+    transition: 0.5s ease-in-out;
+    border-color: #0d6efd;
+}
+
+/* pages end */
+
+/* posts start */
+#posts {
+    padding-top: 18vh;
+}
+
+#posts .card .img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+#posts #respond {
+    margin-top: 5vh;
+}
+
+#posts .comment-reply-title {
+    text-align: start;
+    margin-bottom: 2vh;
+    font-weight: 600;
+    font-size: 5vh;
+}
+
+#posts .logged-in-as {
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+#posts .comment-form-comment label {
+    color: #111;
+    font-weight: 600;
+    font-size: 3vh;
+}
+
+#posts .comment-form-author label {
+    color: #111;
+    font-weight: 600;
+    font-size: 3vh;
+    display: block;
+}
+
+#posts .comment-form-email label {
+    color: #111;
+    font-weight: 600;
+    font-size: 3vh;
+    display: block;
+}
+
+#posts .comment-form-url label {
+    color: #111;
+    font-weight: 600;
+    font-size: 3vh;
+    display: block;
+}
+
+#posts .comment-form-cookies-consent label {
+    color: #111;
+    font-weight: 600;
+    font-size: 2.5vh;
+    margin: 10px 0;
+}
+
+#posts .required {
+    color: red;
+}
+
+#posts #respond .submit {
+    background-color: #111;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 15px;
+    font-size: 2.5vh;
+}
+
+#posts #respond .submit:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+    transition: 0.5s ease-in-out;
+    border-color: #0d6efd;
+}
+
+#posts .commentlist {
+    padding: 0;
+}
+
+#posts .commentlist li {
+    list-style: none;
+}
+
+#posts .commentlist .comment-author img {
+    border-radius: 25px;
+    margin-right: 1vh;
+    height: 8vh;
+    width: 8vh;
+}
+
+/* posts end */
+
+/* main-content end */
